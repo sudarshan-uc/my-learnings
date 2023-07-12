@@ -1,0 +1,29 @@
+
+f = open ("a.txt", "r")
+g = open ("b.txt", "w")
+
+r = Reading [Cannot write]
+w = Writing(New file) [Cannot read. New file]
+a = Append (Append at end of exusting file) [cannot read]
+x = Will Return error if the file exists. 
+
+
+Task1: 
+
+1. create two folders with name a.txt, b.txt
+in a.txt folder, create new file c.txt and write folling text in that file: "My name is NAME. I am from CITY. "
+
+2. You are picking name and city from User input. 
+3. Copy c.txt file in b.txt folder
+
+
+1.	Create two folders - a.txt, b.txt 
+
+2.	In a.txt Folder - Create new file c.txt and write following text in that
+	file.
+	
+	My name is <Name>. I am from <City>
+	
+	You are picking Name and City from User input.
+	
+3.	Copy c.txt in b.txt Folder.
